@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>제주여객터미널</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/default.css">
+  <link rel="stylesheet" href="css/pc.css" media="screen and (min-width: 768px)">
+  <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 767px)">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+  <header id="main-header" class="container">
+    <h1>
+      <a href="./">
+        <img src="images/logo.png" alt="제주여객">
+      </a>
+    </h1>
+
+    <nav id="gnb">
+      <ul>
+        <li><a href="./">연안/국제터미널</a></li>
+        <li><a href="#">운항안내</a></li>
+        <li><a href="#">승선권예매</a></li>
+        <li><a href="#">선사/승선안내</a></li>
+        <li><a href="#">공지사항</a></li>
+      </ul>
+    </nav>
+
+    <div class="right-menu">
+      <select name="family-link" id="family-link" class="pc-only">
+        <option value="">승선권예매 바로가기</option>
+        <option value="">link</option>
+        <option value="">link</option>
+        <option value="">link</option>
+      </select>
+      <button id="site-map-btn" class="pc-only">
+        <img src="images/toggle-btn.svg" alt="site map">
+      </button>
+      <button id="gnb-toggle-btn" class="mobile-only">
+        <img src="images/mobile-toggle-btn.svg" alt="main menu">
+      </button>
+    </div>
+  </header>
+
+  <div id="main-visual" class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide s1">
+        <div class="title">
+          <h2>
+            <span> See the Sea from JEJU </span>
+            <br>즐거운 여행은 제주여객터미널과 함께
+          </h2>
+        </div>
+      </div>
+      <div class="swiper-slide s2">
+        <div class="title">
+          <h2>
+            <span>See the Sea from JEJU </span>
+            <br>즐거운 여행은 제주여객터미널과 함께
+          </h2>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="swiper-pagination"></div>
+
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+
+  <main>
+    <section id="content1" class="container">
+      <img src="images/content-img01.jpg" alt="">
+      <div class="text-box">
+        <div class="text-box-inner">
+          <h2>QUEEN MARY 호</h2>
+          <p>국내 최대 규모의 크루즈형 여객선<br>
+            승객여러분의 안전에 최선을 다하겠습니다.
+          </p>
+          <a href="#" class="detail-btn">승선권예매 바로가기</a>
+        </div>
+      </div>  
+    </section>
+    <section id="content2" class="container">
+      <img src="images/content-img02.jpg" alt="">
+      <div class="text-box">
+        <div class="text-box-inner">
+          <h2>QUEEN JENUVIA 호</h2>
+          <p>최대 최고 초호화 크루즈형 여객선 <br>
+            최고의 해상운행을 선보이겠습니다.
+          </p>
+          <a href="#" class="detail-btn">승선권예매 바로가기</a>
+        </div>
+      </div>  
+    </section>
+    <section id="content3" class="container">
+      <img src="images/content-img03.jpg" alt="">
+      <div class="text-box">
+        <div class="text-box-inner">
+          <h2>ARION JEJU 호</h2>
+          <p>국내 최초 거친 태평양 바다 횡단용 선박<br>
+            적재량을 줄이고 안전함을 <br>
+            20% 더했습니다.
+          </p>
+          <a href="#" class="detail-btn">승선권예매 바로가기</a>
+        </div>
+      </div>  
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="text-box">
+          <h2>제주항여객터미널</h2>
+          <p>제주도 배편 예약, 더 궁금한 것이 있나요?<br>
+            제주항여객터미널 고객센터에서 친절하게 안내해드립니다.</p>
+          <p>1533-1234으로 문의하세요.<br>
+          [상담시간 : 평일,주말 오전 9시 ~ 저녁 7시]</p>
+            <a href="#" class="detail-btn">고객센터 바로가기</a>
+        </div>  
+      </div><!-- container -->
+    </section>
+  </main>
+
+  <footer id="main-footer">
+    <div class="container">
+      <div class="menu-box">
+        <ul class="footer-menu">
+          <li><a href="#"><strong>개인정보처리방침</strong></a><span>|</span></li>
+          <li><a href="#">홈페이지 이용안내</a><span>|</span></li>
+          <li><a href="#">관리자에게</a><span>|</span></li>
+          <li><a href="#">찾아오시는길</a></li>
+        </ul>
+
+      </div><!-- menu-box -->
+      <div class="footer-info">
+        <img src="images/logo.png" alt="제주여객">
+        <div class="footer-info-text">
+          <p>법인명 : 제주항여객터미널<span>|</span>
+            [63280] 제주특별자치도 제주시 임항로 111<span>|</span>
+            대표전화 : 080-022-0234
+          </p>
+          <p class="copy">Copyright ⓒ 2022 JEJU FERRY PASSENGER All Rights Reserved.</p>
+        </div> 
+        <a href="#" class="top-btn"><img src="images/ant-design_arrow-up-outlined.svg" alt="위로가기"></a>
+      </div><!-- footer-info -->
+    </div><!-- container -->
+  </footer>
+
+ 
+
+
+  <script src="js/swiper.js"></script>
+</body>
+</html>
